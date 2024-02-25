@@ -47,3 +47,11 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql -U postgres < students.sql
+touch students_info.sh
+mv students_info.sh student_info.sh
+rm studen_info.sh
+rm student_info.sh
+clear
+touch studen_info.sh
+rm studen_info.sh
+touch student_info.sh
