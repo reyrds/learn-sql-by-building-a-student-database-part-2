@@ -56,3 +56,4 @@ touch studen_info.sh
 rm studen_info.sh
 touch student_info.sh
 chmod +x student_info.sh
+./student_info.sh
